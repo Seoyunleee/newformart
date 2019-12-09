@@ -1,5 +1,5 @@
 var canvas;
-var canvasWidth = 600;
+var canvasWidth = 1000;
 var canvasHeight = 400;
 
 function setup() {
