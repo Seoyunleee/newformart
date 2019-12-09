@@ -1,6 +1,6 @@
 var canvas;
-var canvasWidth = 1000;
-var canvasHeight = 300;
+var canvasWidth = 600;
+var canvasHeight = 400;
 
 function setup() {
   canvas = createCanvas(canvasWidth, canvasHeight);
@@ -31,7 +31,7 @@ function draw(){
 		rects[i].collide( cir ); //collide against the circle object
 	}
 
-	cir.disp(mouseX,mouseY); //pass the x,y pos in to the circle.
+	cir.disp(mouseX,mouseY);
 
   //draw and collide the players
 	p1.disp();
