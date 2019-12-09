@@ -53,7 +53,7 @@ function rectObj(x,y,w,h){
 		this.hit = collideRectCircle(this.x, this.y, this.w, this.h, obj.x, obj.y, obj.dia); //collide the cir object into this rectangle object.
 
 		if(this.hit){
-			this.color = color(0) //set this rectangle to be black if it gets hit
+			this.color = color(255,0,0,100) //set this rectangle to be black if it gets hit
 		}
 
 	}
@@ -82,7 +82,8 @@ function circleObj(dia){
 		this.y = y;
 		noStroke();
 		fill(this.color);
-		ellipse(this.x,this.y,this.dia,this.dia);
+		//ellipse(this.x,this.y,this.dia,this.dia);
+    rect(this.x,this.y,this.dia,this.dia);
 	}
 
 }
