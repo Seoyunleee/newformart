@@ -19,7 +19,7 @@ function setup() {
 
 //object Oriented Collision
 var rects = [];
-var numRects = 50;
+var numRects = 1500;
 var cir;
 
 
@@ -82,7 +82,6 @@ function circleObj(dia){
 		this.y = y;
 		noStroke();
 		fill(this.color);
-		//ellipse(this.x,this.y,this.dia,this.dia);
     rect(this.x,this.y,this.dia,this.dia);
 	}
 
