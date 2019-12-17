@@ -54,8 +54,8 @@ function rectObj(x,y,w,h){
 	this.disp = function(){
 		noStroke();
 		fill(this.color);
-		this.x += 3 //move to the right!
-		if(this.x > width){ //loop to the left!
+		this.x += 3 //move to the right
+		if(this.x > width){ //loop to the left
 			this.x = -this.w;
 		}
 		rect(this.x,this.y,this.w,this.h);
