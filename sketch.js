@@ -46,7 +46,7 @@ function rectObj(x,y,w,h){
 		this.hit = collideRectCircle(this.x, this.y, this.w, this.h, obj.x, obj.y, obj.dia); //collide the cir object into this rectangle object.
 
 		if(this.hit){
-			this.color = color(255,0,0,25) //set this rectangle to be black if it gets hit
+			this.color = color(255,0,0,20) //set this rectangle to be black if it gets hit
 		}
 
 	}
